@@ -1,0 +1,4 @@
+toolmayicDrillGun,items,Items,New,Drill Gun,,,,,
+toolmayicDrillGunDesc,items,Items,New,Automatic disassembly tool and repair tool,,,,,
+toolmayicDrillBattery,items,Items,New,Drill Battery,,,,,
+toolmayicDrillBatteryDesc,items,Items,New,Battery to power the Drill Gun,,,,,

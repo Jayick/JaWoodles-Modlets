@@ -1,0 +1,17 @@
+<configs>
+<append xpath="/recipes">
+<recipe name="toolmayicDrillGun" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceElectricParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="toolmayicDrillBattery"/>
+</recipe>
+<recipe name="toolmayicDrillBattery" count="2" craft_area="workbench" tags="learnable">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapLead" count="50"/>
+</recipe>
+</append>
+</configs>

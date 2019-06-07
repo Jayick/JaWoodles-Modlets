@@ -1,0 +1,107 @@
+<configs>
+<append xpath="/items">
+
+<item name="toolmayicDrillGun">
+	<property name="Tags" value="blunt,melee,light,tool,perkSalvageOperations"/>
+	<property name="DisplayType" value="meleeRepairTool"/>
+	<property name="HoldType" value="1"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Drill.unity3d?DrillPrefab"/>
+	<property name="CustomIcon" value="drill"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="RepairTools" value="resourceForgedSteel"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="metaldestroy1"/>
+	<property name="EconomicValue" value="288"/>
+			<property name="DescriptionKey" value="toolmayicDrillGunDesc"/>
+	
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="UseMeleeCrosshair" value="true"/>
+		<property name="Single_magazine_usage" value="true"/>
+		<property name="Magazine_items" value="toolmayicDrillBattery"/>
+		<property name="Bullet_material" value="metal"/>
+		<property name="Reload_time" value="4.1"/>
+		<property name="Sound_start" value="drill1"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="auger_empty"/>
+		<property name="Sound_reload" value="Auger_Reload"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
+		<!-- <property name="DamageBonus.wood" value="0.25"/> -->
+		<!-- <property name="DamageBonus.head" value="3"/> -->
+		<property name="SupportHarvesting" value="true"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<property name="ToolCategory.Disassemble" value="1" param1="1"/>
+		<property name="Sound_harvesting" value="wrench_harvest" param1="metal"/>
+		<property name="Particle_harvesting" value="true" param1="metal"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Repair"/>
+		<property name="Delay" value=".1"/> <!-- Repair actions still need the delay amount -->
+		<property name="Repair_amount" value="350"/>
+		<property name="Upgrade_hit_offset" value="-2"/>
+		<property name="Sound_start" value="repair_block"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,resourceYuccaFibers"/>
+	</property>
+	<effect_group name="Base Effects"> <!-- meleeToolAuger -->
+		<passive_effect name="MaxRange" operation="base_set" value="2.35"/>
+		<passive_effect name="BlockRange" operation="base_set" value="7"/>
+		<passive_effect name="SphereCastRadius" operation="base_set" value="0.1"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
+
+		<passive_effect name="EntityDamage" operation="base_set" value="3.5"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="22"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
+
+		<passive_effect name="MagazineSize" operation="base_set" value="500"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/> <!-- 3.5s -->
+		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="salvageHarvest"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0.5"/>
+
+		<passive_effect name="KickDegreesVertical" operation="base_set" value="-0.35,0.35"/>
+		<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-0.35,0.35"/>
+		<display_value name="dRecoil" value="1" />
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="3000,6000" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="3"/>
+	</effect_group>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="ActionSkillGroup" value="Construction Tools"/>
+	<property name="CraftingSkillGroup" value="craftSkillTools"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+</item>
+
+<item name="toolmayicDrillBattery">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="DescriptionKey" value="toolmayicDrillBatteryDesc"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="CustomIcon" value="drillbat"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mlead"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="5000"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="200"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="Group" value="Tools/Traps,Resources"/>
+			<property name="CraftingIngredientExp" value="3"/>
+			<property name="CraftingIngredientTime" value="1"/>
+		</item>
+</append>
+</configs>

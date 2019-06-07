@@ -1,0 +1,4 @@
+<configs>
+<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/grid[@name='inventory' and @rows]/@rows">4</set>
+<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/grid[@name='inventory' and @cols]/@rows">4</set>
+</configs>

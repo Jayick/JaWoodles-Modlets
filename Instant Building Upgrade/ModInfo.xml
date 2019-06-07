@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Building Upgrade Changes" />
+        <Description value="Alters amounts of resources and upgrade hits per block changing tiers." />
+        <Author value="Mayic" />
+        <Version value="1.0" />
+        <Website value="" />
+    </ModInfo>
+</xml>

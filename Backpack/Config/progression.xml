@@ -1,0 +1,8 @@
+<configs>
+<set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value='4']/@value">10</set>
+<set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value='9']/@value">20</set>
+<set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value='15']/@value">30</set>
+<set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value='21']/@value">40</set>
+<set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value='27']/@value">60</set>
+</configs>
+

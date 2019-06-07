@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<configs>
+		<set xpath="/blocks/block[@name='flagstoneMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='6']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='flagstoneMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='10']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='cobblestoneMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='cobblestoneMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='10']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='brickMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='brickMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='10']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='corrugatedMetalMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='corrugatedMetalMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='15']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='woodFrameMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='woodFrameMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='4']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='woodMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='woodMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='4']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='rWoodMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='rWoodMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='12']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='rWoodMetalMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='rWoodMetalMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='40']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='scrapIronFrameMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='scrapIronFrameMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='40']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='scrapIronMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='scrapIronMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='40']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='rScrapIronMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='rScrapIronMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='10']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='rebarFrameMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='rebarFrameMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='10']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='concreteMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='concreteMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='10']/@value">1</set> -->
+
+		<set xpath="/blocks/block[@name='rConcreteMaster']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount' and @value='4']/@value">1</set>
+	<!--	<set xpath="/blocks/block[@name='rConcreteMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='10']/@value">1</set> -->
+</configs>

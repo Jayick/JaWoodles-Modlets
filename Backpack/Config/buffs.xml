@@ -1,0 +1,26 @@
+<configs>
+<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity' and @value]/@value">80</set>
+</configs>
+
+
+
+<!--
+<buff name="buffDrugSteroids" name_key="buffDrugSteroidsName" description_key="buffDrugSteroidsDesc" icon="ui_game_symbol_steroids" tags="drug">
+		<stack_type value="replace"/>
+		<duration value="600"/>
+		<effect_group>
+			<passive_effect name="AttributeLevel" operation="base_add" value="3" tags="attStrength"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value=".083"/>
+			<passive_effect name="CarryCapacity" operation="base_set" value="50" />
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="buffDrugSteroidsSideEffect"/>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="buffDrugSteroidsSideEffect">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="25"/>
+			</triggered_effect>
+		</effect_group>
+	</buff>
+-->

@@ -1,0 +1,6 @@
+<configs>
+<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+	
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="toolmayicDrillGun,toolmayicDrillBattery"/>
+			</append>
+</configs>

@@ -1,0 +1,8 @@
+<configs>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='JumpStrength' and @value='0.08']/@value">0.11</set>
+
+
+<append xpath="/entityclasses/entity_class[@name='playerMale']/effect_group">
+<triggered_effect trigger="onSelfFallImpact" action="ModifyCVar" cvar="$impactSpeed" operation="subtract" value="1"/>
+</append>
+</configs>

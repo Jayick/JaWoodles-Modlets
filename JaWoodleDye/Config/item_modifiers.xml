@@ -1,0 +1,49 @@
+<configs>
+<append xpath="/item_modifiers">
+
+
+	<item_modifier name="JaWoodlePurple" installable_tags="clothing,armor,weapon,tool" modifier_tags="dye" type="attachment" rarity="0.2">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="CustomIcon" value="jawoodlepurple"/>
+		
+		<item_property_overrides name="*">
+			<property name="TintColor" value="140,4,181"/>
+			<property name="CustomIconTint" value="140,4,181"/>
+			<property name="UMA.Overlay0Tint" value="140,4,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="tankTop">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="140,4,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="tshirt">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="140,4,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="tshirtZUWhite">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="140,4,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="jacketLetter">
+			<property name="UMA.Overlay0Tint" value="154,31,42,255"/> <!-- stays red -->
+			<property name="UMA.Overlay1Tint" value="140,4,181"/>
+			<property name="UMA.Overlay2Tint" value="140,4,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="denimShortsPants">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="140,4,181"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="flannelShirt">
+			<property name="UMA.Overlay0Tint" value="140,4,181"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	</append>
+	</configs>

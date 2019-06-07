@@ -1,0 +1,37 @@
+<configs>
+	<append xpath="/items">
+		<item name="Lockpick">	
+			<property name="CustomIcon" value="lockpick" />
+			<property name="DisplayType" value="adminRanged"/>
+			<property name="Tags" value="knife,melee,light,tool,lockpick"/>
+			<property name="HoldType" value="31"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Lockpick.unity3d?LockpickPrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="DegradationBreaksAfter" value="true"/>
+			<property name="SoundJammed" value="weapon_jam"/>
+			<property name="CrosshairUpAfterShot" value="true"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property class="Action1"> 
+				<property name="Class" value="Repair"/>
+				<property name="Delay" value=".5"/> 
+				<property name="Repair_amount" value="200"/>
+				<property name="Upgrade_hit_offset" value="0"/>
+				<property name="Sound_start" value=""/>
+				<property name="Allowed_upgrade_items" value="Lockpick"/>
+				<property name="Upgrade_action_sound" value="lockpickclick"/>
+				<property name="UsePowerAttackAnimation" value="false"/>
+			</property>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="MaxRange" operation="base_set" value="200"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0"/>
+			</effect_group>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="ActionSkillGroup" value="Construction Tools"/>
+			<property name="CraftingSkillGroup" value="craftSkillTools"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+		</item>	
+	</append>
+</configs>

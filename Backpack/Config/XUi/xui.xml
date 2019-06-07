@@ -1,0 +1,6 @@
+<potato>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_forge']/window[@name='windowOutput']/@name">customforgewindowOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">customwindowForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_campfire']/window[@name='windowOutput']/@name">customforgewindowOutput</set>
+
+	</potato>

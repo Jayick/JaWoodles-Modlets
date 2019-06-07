@@ -1,0 +1,42 @@
+<configs>
+<append xpath="/blocks">
+
+<block name="Elevator">
+			<property name="Material" value="Mstone"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CustomIcon" value="elevator"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder:Resources/ElevatorPrefab.unity3d?ElevatorPrefab"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="2,11,2"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Group" value="Workbenches,All"/>
+			<property name="Count" value="80000"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceScrapPolymers" count="2,6" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,8"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+		</block>
+		<block name="FloorLootxfer">
+			<property name="LootList" value="1"/>
+			<property name="Class" value="Loot"/>
+			<property name="Material" value="Mstone"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CustomIcon" value="floorloot"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder:Resources/FloorLootXfer.unity3d?FloorLootXferPrefab"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Group" value="Workbenches,All"/>
+			<property name="Count" value="80000"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceScrapPolymers" count="2,6" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,8"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="floot,ffurniture,fdecor,fother"/>
+		</block>
+</append></configs>

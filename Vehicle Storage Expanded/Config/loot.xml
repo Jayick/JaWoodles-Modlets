@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<configs>
+	<!-- vehicle storage max is 90 slots in vanilla -->
+	<!-- vehicleBicycle storage -->
+	<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">8,11</set>
+	<!-- vehicleMinibike storage -->
+	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">8,11</set>
+	<!-- vehicleMotorcycle storage -->
+	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">8,11</set>
+	<!-- vehicle4x4Truck storage -->
+	<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">8,11</set>
+	<!-- vehicleGyrocopter storage -->
+	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">8,11</set>
+</configs>

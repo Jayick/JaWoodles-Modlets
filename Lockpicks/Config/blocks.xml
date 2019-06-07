@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<configs>
+<append xpath="/blocks/block[@name='cntWallSafeShamway']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeShamwayInsecure"/>
+			<property name="Item" value="Lockpick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="10"/>
+		</property>
+			<property name="CustomUpgradeSound" value="lockpicksound"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntWallSafeBrewery']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeBreweryInsecure"/>
+			<property name="Item" value="Lockpick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="10"/>
+		</property>
+			<property name="CustomUpgradeSound" value="lockpicksound"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntGunSafe']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntGunSafeInsecure"/>
+			<property name="Item" value="Lockpick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="10"/>
+		</property>
+			<property name="CustomUpgradeSound" value="lockpicksound"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntWallSafe']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="Lockpick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="10"/>
+		</property>
+			<property name="CustomUpgradeSound" value="lockpicksound"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntDeskSafe']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntDeskSafeInsecure"/>
+			<property name="Item" value="Lockpick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="10"/>
+		</property>
+			<property name="CustomUpgradeSound" value="lockpicksound"/>
+	</append>
+
+</configs>

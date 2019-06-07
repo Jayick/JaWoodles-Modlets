@@ -1,0 +1,5 @@
+<potato>
+<append xpath="/lootcontainers/lootgroup[@name='dyes']">
+<item name="JaWoodlePurple"/>
+</append>
+</potato>

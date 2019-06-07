@@ -1,0 +1,4 @@
+<configs>
+<set xpath="/items/item[@name='drugSteroids']/effect_group/display_value[@name='dCarryCapacity' and @value]/@value">72</set>
+</configs>
+

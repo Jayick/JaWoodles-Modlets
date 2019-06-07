@@ -1,0 +1,14 @@
+<configs>
+<append xpath="/Sounds">
+<SoundDataNode name="lockpickclick"> 
+	<AudioSource name="Sounds/AudioSource_Impact"/>
+		<Noise ID="3" range="7" volume="15" time="4" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/LockPickCl.unity3d?LockPickClick"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.01"/>
+	</SoundDataNode>
+	</append>
+	</configs>
